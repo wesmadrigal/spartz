@@ -3,6 +3,9 @@ spartz
 
 <b>Spartz</b> preliminary project
 
+<b>Clone me</b><br>
+<tr><b>git clone https://github.com/wesmadrigal/spartz.git</b><br>
+
 
 The Spartz preliminary project to take a csv file with columns:
   - id
