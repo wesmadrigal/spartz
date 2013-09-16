@@ -29,8 +29,8 @@ And utilize a publically available API to use the existing data and generate fou
 <b>Build Data</b>:
   - if which sqlite3 reveals nothing, install sqlite3
     <b>sudo apt-get install sqlite3</b>
-  - inside the newly cloned repo execute
-    # takes as parameters <b>/path/to/file</b> and <b>csv</b> or <b>db</b> as arguments
+  - inside the newly cloned repo execute<br>
+    # takes as parameters <b>/path/to/file</b> and <b>csv</b> or <b>db</b> as arguments<br>
     <b>python main.py /path/to/data.txt { csv | db }</b>
 
 
