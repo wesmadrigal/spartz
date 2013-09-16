@@ -18,19 +18,17 @@ And utilize a publically available API to use the existing data and generate fou
   - city
 
 
+Developer dependencies:<br>
+  language: <b>python</b><br>
+  database: <b>sqlite3</b>
+
+
 To build data:
   - clone this repo <b>git clone https://github.com/wesmadrigal/spartz.git</b>
   - if which sqlite3 reveals nothing, install sqlite3
     <b>sudo apt-get install sqlite3</b>
   - inside the newly cloned repo execute
     <b>python main.py /path/to/data.txt</b>
-  
-
-
-
-Developer dependencies:
-  language: python
-  database: sqlite3
 
   
 The module I built takes the csv file to be converted's path as a command line argument to the "main.py"
