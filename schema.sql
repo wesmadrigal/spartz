@@ -9,5 +9,6 @@ create table geodata (
         continent varchar,
         country varchar,
         province varchar,
-        city varchar
+        city varchar,
+        updated integer
 );

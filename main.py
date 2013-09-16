@@ -6,6 +6,7 @@ import sys
 import csv
 import re
 import os
+import time
 from geodata import continents, countries
 from models import GeoData
 
@@ -89,8 +90,9 @@ def store_data_db(path):
             api_data = [ continent, country, state_province, city ]
             encoded = [ i.encode('utf-8') for i in api_data ]
             row = facebook + encoded
-
-            G = GeoData(conn, row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[8])
+                   
+            updated = int(time.time())
+            G = GeoData(conn, row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[8], updated)
             G.save()
  
         else:
