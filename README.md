@@ -30,7 +30,8 @@ And utilize a publically available API to use the existing data and generate fou
   - if which sqlite3 reveals nothing, install sqlite3
     <b>sudo apt-get install sqlite3</b>
   - inside the newly cloned repo execute
-    <b>python main.py /path/to/data.txt</b>
+    # takes as parameters <b>/path/to/file</b> and <b>csv</b> or <b>db</b> as arguments
+    <b>python main.py /path/to/data.txt { csv | db }</b>
 
 
 <b>Daemonize</b>:
