@@ -34,7 +34,7 @@ And utilize a publically available API to use the existing data and generate fou
 <b>Daemonize</b>:
   - in a shell:<br>
 <tr><b>crontab -e</b><br>
-  - execute the data module every night at 1:00 a.m.
+  - execute the data module every night at 1:00 a.m.<br>
 <tr><b>0 1 * * * python /path/to/spartz/main.py data.txt 2>&1 /var/log/geodata.log</b>
 
   
