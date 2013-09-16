@@ -27,7 +27,6 @@ And utilize a publically available API to use the existing data and generate fou
 
 
 <b>Build Data</b>:
-  - clone this repo <b>git clone https://github.com/wesmadrigal/spartz.git</b>
   - if which sqlite3 reveals nothing, install sqlite3
     <b>sudo apt-get install sqlite3</b>
   - inside the newly cloned repo execute
