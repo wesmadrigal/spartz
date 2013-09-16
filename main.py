@@ -199,7 +199,12 @@ if __name__ == '__main__':
         if _type.startswith('c'):
             store_data_csv(arg)
         elif _type.startswith('d'):
-            os.system("sqlite3 schema.db < schema.sql")
+            # check if schema.db is already created
+            already = [ i for i in os.listdir(os.getcwd()) if i == 'schema.db' ]
+            if len(already) > 0:
+                pass
+            else:
+                os.system("sqlite3 schema.db < schema.sql")
             store_data_db(arg)
     else:
         print "Takes one path to a csv file as argument and csv or db"
