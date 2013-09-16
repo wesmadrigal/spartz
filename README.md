@@ -1,7 +1,7 @@
 spartz
 ======
 
-spartz preliminary project
+Spartz preliminary project
 
 
 The Spartz preliminary project to take a csv file with columns:
@@ -16,6 +16,16 @@ And utilize a publically available API to use the existing data and generate fou
   - country
   - state/province
   - city
+
+
+To build data:
+  - clone this repo "git clone https://github.com/wesmadrigal/spartz.git"
+  - if which sqlite3 reveals nothing, install sqlite3
+    "sudo apt-get install sqlite3"
+  - inside the newly cloned repo execute
+    "python main.py /path/to/data.txt"
+  
+
 
 
 Developer dependencies:
